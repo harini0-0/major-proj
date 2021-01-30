@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.gallerys {
+    height:1125px;
+}
+.movies {
+    height:700px;
+}
+.contact{
+    height:100px;
+    text-align: center;
+    word-spacing: 20px;
+}
+.gallery img , .movie img{
+    border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+    float: left;
+    width:200px;
+    height: 200px;
+    margin: 5px;
+    -webkit-filter: blur(4px);
+	filter: blur(4px);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    border-radius:8px;
+}
+.gallery img:hover, .movie img:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+body{
+    background-image: linear-gradient(to bottom right, white, rgb(104, 100, 104), rgb(8, 8, 7)); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.heading{
+    padding: 10px 10px;
+    font: 40px Merienda ;
+    background-color: rgba(180, 162, 184, 0.2);
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 2px #968228;
+    border-bottom: rgb(0, 0, 0) solid 3px;
+}
+.mainbox {
+    overflow: auto;
+    display: block;
+}
+
+.menu {
+    float: left;
+    width: 13%;   
+}
+.menuitem {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding: 10px 10px;
+    margin-top: 3px;
+    border-bottom: 1px solid #CFB53B;
+}
+.menuitem:last-child{
+    border-bottom:#CFB53B solid 2px;
+}
+.menuitem a {
+    color: #000000;
+    text-decoration: none;
+}
+.menuitem a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #a70799;
+}
+.main {
+    width: 55%;
+    padding: 15px 15px;
+    align-content: center;
+    float: left;
+}
+#home p{
+    text-align:justify;
+    line-height: 20px;
+    text-shadow: 2px 2px grey;
+}
+.right {
+    width: 30%;
+    float: left;
+    height: 100%;
+    margin-top: 15px;
+    padding: 15px 15px;
+    border: 1px solid rgb(90, 88, 88);
+}  
+.footer {
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:12px;
+    width: 100%;
+}
