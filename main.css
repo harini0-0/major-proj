@@ -62,6 +62,7 @@ body{
   img{
       width: 150px;
       height: 400px;
+      border-radius: 20px;
   }
   /* The dots/bullets/indicators */
   .dot {
