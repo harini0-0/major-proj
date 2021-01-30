@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+  #mySearch {
+    width: 10%;
+    float:right;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
