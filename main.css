@@ -103,10 +103,18 @@ body{
   }
   .starters img {
     border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px;
     float: left;
-    width:200px;
-    height: 200px;
+    width:90%;
+    height: 90%;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.col{
+    flex: 50%;
+    padding: 5px;
 }
