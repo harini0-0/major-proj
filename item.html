@@ -64,14 +64,20 @@
               <span class="dot"></span> 
               <span class="dot"></span> 
             </div>
+
             <div class="starters">
               <h2 style="font-family: 'Libre Baskerville'; font-size: 40px ;text-align: center; color: aliceblue; text-decoration: underline overline;">Starters</h2><br><br>
               <div class="row">
                 <div class="col">
-                  <img src="paneer.png" alt="panner tikka"><br>
-                  <div class="container">
-                    <h4><b>Paneer tikka</b></h4>  
+                  <div id="overlay" onclick="off()">
+                    <div id="text">Description:<br><br>Hot frenched chicken winglets,prepared in red-tinged marinade of garlic,chilli and soy sauce.</div>
                   </div>
+                  <div class="container">
+                    <button onclick="on()"><img src="paneer.png" alt="panner tikka"><br>
+                      <h4 style="padding:20px"><b>Paneer tikka<br><br>Price: Rs 165</b></h4>
+                    </button>
+                  </div>
+                  
                 </div>
                 <div class="col">
                   <img src="lollipop.jpeg" alt="lollipop"><br>
@@ -84,8 +90,20 @@
 
               </div>
             </div>
-
-
+            
+            
+            
+        
+            
+            <script>
+            function on() {
+              document.getElementById("overlay").style.display = "block";
+            }
+            
+            function off() {
+              document.getElementById("overlay").style.display = "none";
+            }
+            </script>
 
 
             <script>
