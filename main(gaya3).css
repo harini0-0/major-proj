@@ -108,7 +108,7 @@ body{
     text-decoration: none;
   }
   .navbar a:hover {
-    background-color:blue;
+    background-color:cyan;
     color: black;
   }
   /* Slideshow container */
