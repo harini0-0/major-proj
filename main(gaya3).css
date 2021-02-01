@@ -67,8 +67,8 @@ body{
 .single-menu img{
   max-width:300px;
   margin-right:30px;
-  border-radius:50%;
-  border:1px solid #ddd;
+  border-radius:20%;
+  border:1px solid cyan;
   padding:3px;
   transition:.5s;
 }
