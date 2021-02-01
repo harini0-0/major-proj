@@ -16,6 +16,7 @@ body{
 .title{
   text-align:center;
   margin-bottom:60px;
+  color: white;
 }
 .title h4{
   text-transform:capitalize;
@@ -35,7 +36,7 @@ body{
   content:"";
   width:100px;
   height:2px;
-  background-color:#ff7720;
+  background-color:cyan;
   bottom:0;
   left:50%;
   transform:translateX(-50%);
