@@ -59,6 +59,7 @@ body{
   display:flex;
   flex-direction:row;
   align-items:center;
+  color:white;
 }
 .single-menu:hover img{
   border-radius:0;
@@ -80,7 +81,7 @@ body{
 }
 .single-menu h4 span{
   float:right;
-  color:#ff7720;
+  color:cyan;
   font-style:italic;
 }
   #mySearch {
