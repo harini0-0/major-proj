@@ -21,6 +21,7 @@ body{
 .title h4{
   text-transform:capitalize;
   font-size:36px;
+  position:relative;
   display:inline-block;
   padding-bottom:10px;
   text-align:center;
